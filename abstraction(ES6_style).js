@@ -22,7 +22,7 @@ class Employee{
 const emp1 = new Employee('Raja', 42, 55000);
 emp1.empDetails;
 
-// emp1.calFinalSal;                   // even outsider employee Raja tries to access 1st fn here i.e, calFinalSal, he still cannot see the inside code or temper it, just gets output of 56500 printed in the console just like 2nd fn () i.e, what empDetails gives him.
+// emp1.calFinalSal;                   // even outsider employee Raja tries to access 1st fn here i.e, calFinalSal, he still cannot see the inside code or temper it, just gets output of 56500 printed in the console just like 2nd fn () i.e, what empDetails() fn gives him.
 
 
 
