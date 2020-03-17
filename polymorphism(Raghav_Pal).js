@@ -17,7 +17,7 @@ class Horse extends Animal{
     // constructor(name){   // this block of code is not required to write instead used super.eats() under
     //     super(name);
     // }
-
+    
     eats(){
         super.eats();   // used super keyword to call parent/base class non-static contents and prints Chetak eats it's food
         console.log(this.name, 'eats it\s cheakpeas');           // prints Chetak eats its cheakpeas
