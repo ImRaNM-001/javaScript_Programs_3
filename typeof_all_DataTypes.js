@@ -48,3 +48,9 @@ let batman = {
 console.log('14. The data type here is '+ typeof batman);		// return object
 
 
+
+
+
+
+
+

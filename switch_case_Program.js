@@ -1,28 +1,30 @@
 // part 1 (useful)
-let job= 'investor';
-switch(job)
-	{
+let job = 'saat samundar';
+switch(job){
 		case 'footballer':
-			console.log('Sorry, i am not a footballer');
-			break;
+		console.log('Sorry, i am not a footballer');
+		break;
 			
 		case 'investor':
-			console.log('I would love to be an investor');
-			break;
+		console.log('I would love to be an investor');
+		break;
 			
 		case 'automation engineer':
-			console.log('trying hard to become one');
-			break;
+		console.log('trying hard to become one');
+		break;
 			
-			default:
-			console.log('gone to any other job');
-			break;
+		default:
+		console.log('gone to any other job');
+		break;
+
+		case 'saat samundar':
+		console.log('tere peeche peeche aa gyi');
+		break;		
 	}
 
 /* part 2, intentionally commented
 let joke = 'joker\'s cracked a joke';
-switch (joke)
-{
+switch (joke){
 	case 'jokee':
 	console.log('am i joke to you');
 	break;
@@ -34,4 +36,4 @@ switch (joke)
 	default:
 	console.log('print blah blah bulshit');
 	break;
-	}*/
+} */

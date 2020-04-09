@@ -1,7 +1,12 @@
-// this file is solely used for trial JavaScript programs, then if required inserted in a new file later
+// this file is solely used for trial JavaScript programs, then on need basis inserted in a new file or moved to an existing file later
 
 
-  
+
+
+
+
+
+
 
 
 
