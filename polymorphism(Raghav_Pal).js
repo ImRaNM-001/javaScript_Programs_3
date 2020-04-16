@@ -9,8 +9,8 @@ class Animal{
     }
 }
 
-const anML = new Animal('Dog');
-anML.eats();                            // prints Dog eats it's food (old way, instead use a child class)
+const al = new Animal('Dog');
+al.eats();                            // prints Dog eats it's food (old way, instead use a child class)
 
 class Horse extends Animal{
 
@@ -20,12 +20,16 @@ class Horse extends Animal{
     
     eats(){
         super.eats();   // used super keyword to call parent/base class non-static contents and prints Chetak eats it's food
-        console.log(this.name, 'eats it\s cheakpeas');           // prints Chetak eats its cheakpeas
+        // console.log(this.name, 'eats it\s cheakpeas');    // commented as it is a good practice to write return statment inside a fn()
+
+        return this.name + ` eats it's cheakpeas`;           
     }
 }
 
-const chetak = new Horse('Chetak');
-chetak.eats();
+const ctk = new Horse('Chetak');
+// chetak.eats();
+console.log(ctk.eats() );                        // prints Chetak eats its cheakpeas
+
 
 
 
