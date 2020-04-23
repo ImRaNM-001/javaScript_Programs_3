@@ -1,4 +1,23 @@
 class Employee{
+    /*
+    name;
+    age;
+    baseSal;     // commented these because of below note
+    
+    Note:  and also 
+        1. We don't write const, let against variables at class level
+        2. It is optional to declare variables at class level in JavaScript but mandatory at TypeScript with data types off course
+        3. In ES6 you can create classes natively, but there is no option to have class variables:
+
+        // ES6
+        class MyClass{
+            const MY_CONST = 'string';                  // <-- this is not possible in ES6
+            constructor(){
+                this.MY_CONST;
+            }
+        }
+        Sadly, the above won't work, as classes only can contain methods.
+        */
 
     constructor(name, age, baseSal){
         this.name = name;
@@ -14,9 +33,8 @@ class Employee{
     }
 
     get empDetails(){
-        console.log('Employee name is: ' + this.name + ', Employee age is: ' + this.age + ' and Employee salary is: ' + this.calFinalSal);        
+        console.log('Employee name is: ' + this.name + ', Employee age is: ' + this.age + ' and Employee salary is: ' + this.calFinalSal);
     }
-
 }                           // closing Employee class here
     
 const emp1 = new Employee('Raja', 42, 55000);

@@ -1,20 +1,16 @@
 // part 1 (useful)
-let job = 'saat samundar';
+const job = 'saat samundar';
 switch(job){
-		case 'footballer':
-		console.log('Sorry, i am not a footballer');
+		case 'footballer': console.log('Sorry, i am not a footballer');
 		break;
 			
-		case 'investor':
-		console.log('I would love to be an investor');
+		case 'investor': console.log('I would love to be an investor');
 		break;
 			
-		case 'automation engineer':
-		console.log('trying hard to become one');
+		case 'automation engineer': console.log('trying hard to become one');
 		break;
 			
-		default:
-		console.log('gone to any other job');
+		default: console.log('gone to any other job');
 		break;
 
 		case 'saat samundar':
