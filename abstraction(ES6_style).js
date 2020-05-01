@@ -1,13 +1,16 @@
 class Employee{
-    /*
-    name;
+
+/*  name;
     age;
-    baseSal;     // commented these because of below note
+    baseSal;                 // commented these because of below note
     
-    Note:  and also 
-        1. We don't write const, let against variables at class level
-        2. It is optional to declare variables at class level in JavaScript but mandatory at TypeScript with data types off course
-        3. In ES6 you can create classes natively, but there is no option to have class variables:
+    Note:  1. It is optional (not necessary) to declare variables at class level in JavaScript but mandatory at       TypeScript with data types offcourse.
+    For JavaScript, every variable declaration comes inside either constructor or methods inside class.
+
+    2. We don't write const, let against variables at class level for both JavaScript and TypeScript, 
+        appending "let" keyword for class (global) variables gives  "SyntaxError: Unexpected identifier"
+
+    3. (stack overflow point) In ES6 you can create classes natively, but there is no option to have class variables:
 
         // ES6
         class MyClass{
@@ -33,7 +36,7 @@ class Employee{
     }
 
     get empDetails(){
-        console.log('Employee name is: ' + this.name + ', Employee age is: ' + this.age + ' and Employee salary is: ' + this.calFinalSal);
+        console.log('Employee: name is ' + this.name + ', age is ' + this.age + ' and salary is ' + this.calFinalSal);
     }
 }                           // closing Employee class here
     

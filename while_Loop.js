@@ -3,7 +3,7 @@ console.log('The numbers list are ');
 
 let i = 0;
 while(i < 5){
-	console.log(i);					// prints 0 1 2 3 4 (horizontal way)
+	console.log(i);					// prints 0 1 2 3 4 (vertical order)
 	i++;
 }
 console.log('\n-----------');
@@ -14,7 +14,7 @@ while(condition){
 	if(n == 3){
 		condition = false;
 	}
-	console.log(n);						// prints 2 3 (horizontal way)
+	console.log(n);						// prints 2 3 (vertical order)
 	n++;
 }
 console.log('\n------------');

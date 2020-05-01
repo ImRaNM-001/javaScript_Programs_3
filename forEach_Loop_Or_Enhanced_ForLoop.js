@@ -11,4 +11,4 @@ console.log(arr[2]);							// prints 90
 	} ); 				*/
 
 // 2. new & shorter way (ES6 way)
-arr.forEach(elem => console.log(elem) );		// prints 90 jack jill 90 67 2 shelly (horizontal way)
+arr.forEach(elem => console.log(elem) );		// prints 90 jack jill 90 67 2 shelly (vertical order)
