@@ -1,4 +1,25 @@
-function testPrime(num)
+const msg1 = 'It is a prime number',
+msg2 = 'Not a prime number',
+
+primeNum = num =>{
+	if(num == 1) return msg2;
+	else if(num == 2) return msg1;
+	else if (num > 2){
+		for(let count = 2;	count < num;	count++){
+			if(num % count == 0) return msg2;
+			else if(num == count * count) return msg2;
+			else return msg1;
+		}
+	}
+	else return msg2;			
+} ;
+
+console.log(primeNum(49) );			
+
+
+
+
+/* function testPrime(num)
 {
 	if (num===1)
 		{
@@ -23,4 +44,13 @@ function testPrime(num)
 				}			
 		}	
 }
-console.log(testPrime(50));
+console.log(testPrime(50) );			*/
+
+
+
+
+
+
+
+
+
