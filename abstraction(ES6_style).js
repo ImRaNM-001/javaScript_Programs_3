@@ -4,7 +4,7 @@ class Employee{
     age;
     baseSal;                 // commented these because of below note
     
-    Note:  1. It is optional (not necessary) to declare variables at class level in JavaScript but mandatory at       TypeScript with data types offcourse.
+    Note:  1. It is optional (not necessary) to declare variables at class level in JavaScript but mandatory at   TypeScript with data types or else we have to make those variables as explicitly public inside constructor.
     For JavaScript, every variable declaration comes inside either constructor or methods inside class.
 
     2. We don't write const, let against variables at class level for both JavaScript and TypeScript, 
@@ -19,8 +19,7 @@ class Employee{
                 this.MY_CONST;
             }
         }
-        Sadly, the above won't work, as classes only can contain methods.
-        */
+        Sadly, the above won't work, as classes only can contain methods.           */
 
     constructor(name, age, baseSal){
         this.name = name;
