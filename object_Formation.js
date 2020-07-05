@@ -1,10 +1,10 @@
-//part1
-/*let obj = new Object ({name: 'bruce' , age: 40});
+/* part1
+let obj = new Object ({name: 'bruce' , age: 40});
 obj['2 sur name'] = 'wayne';
 
 console.log(obj.age);
 console.log(obj['name'] );
-console.log(obj['2 sur name'] );*/
+console.log(obj['2 sur name'] );							*/
 
 
 // part 2
@@ -23,6 +23,7 @@ myObj[obj]              = 'Object';
 myObj['']               = 'Even an empty string';
 
 console.log(myObj);
+console.log('\n================================');
 
 
 // part3
@@ -35,4 +36,4 @@ let obj3 = new Object();
 	obj3[name] 	= 'hey this is jack sparrow';
 	obj3[city] = '7>8';
 
-	console.log(obj3);			// prints empty object {}
+	console.log(obj3);			// prints 	{ jack: 'hey this is jack sparrow', '30 MA': '7>8' }
