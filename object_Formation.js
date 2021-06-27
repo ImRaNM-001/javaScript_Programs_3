@@ -4,7 +4,7 @@ obj['2 sur name'] = 'wayne';
 
 console.log(obj.age);
 console.log(obj['name'] );
-console.log(obj['2 sur name'] );							*/
+console.log(obj['2 sur name'] );							*/   
 
 
 // part 2
